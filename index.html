@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+    <title>KUYLINER</title>
+</head>
+<body>
+    <header>
+        <nav class="container-navbar">
+            <div class="logo-navbar"><img src="images/logokuyliner.png" alt="logo" width="100px" height="50px"></div>
+            <!-- https://imgur.com/a/aqSKiiY -->
+            <div class="button-menu">
+                <ul>
+                    <li><a href="#about"><button class="btn">Home</button></a></li>
+                    <li><a href="#contact"><button class="btn">Artikel</button></a></li>
+                    <li><a href="#about"><Button class="about">About</Button></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <div id="image-head">
+                <img src="images/3.jpeg" alt="header-image" width="100%" height="600px">
+                <!-- https://imgur.com/a/fHDuB6N -->
+            </div>
+            <div class="text-button">
+                <h1><span>Menu Varian Kuliner <br>Untuk Pecinta Makanan</span><br>
+                    Memberikan Kuliner Rasa Terbaik.</h1>
+                <br>
+                <a href="#content"><button class="ButtonMore"> Masuk </button></a>
+                <a href="#"><button class="ButtonGetStarted"> Daftar </button></a>
+            </div>
+        </section>
+    
+        <section id="tribute-info">
+            <h2>Tempat Makanan Enak di Jakarta</h2>
+            <ul>
+                <li class="album">
+                    <a href="https://twice.jype.com/Default/DiscographyView?AamSeq=130&AmSeq=0&PgIndex=0" target="_blank">
+                        <img src="./images/crab.jpeg" alt="Cry For Me" class="album-img">
+                        <div class="album-overlay">
+                            <div class="release-date">Resto seafood</div>
+                            <div class="album-title">Lokasinya ada di senopati.</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="album">
+                    <a href="https://twice.jype.com/Default/DiscographyView?AamSeq=93" target="_blank">
+                        <img src="./images/1.jpg" alt="Eyes Wide Open" class="album-img">
+                        <div class="album-overlay">
+                            <div class="release-date">Resto Seafod</div>
+                            <div class="album-title">Kemang</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="album">
+                    <a href="https://twice.jype.com/Default/DiscographyView?AamSeq=92" target="_blank">
+                        <img src="./images/2.jpeg" alt="More and More" class="album-img">
+                        <div class="album-overlay">
+                            <div class="release-date">Bakmi Aloi</div>
+                            <div class="album-title">Jakarta Timur</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    
+    
+        <section id="contact">
+            <div class="contact-detail">
+    
+                <form id="myForm">
+                    <h1>Hubungi Kami Dibawah ini</h1>
+    
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" placeholder=" Masukan nama anda " />
+                        </div>
+    
+                        <div class="input-group">
+                            <label for="city">City</label>
+                            <input id="city" type="text" placeholder=" Masukan kota anda ">
+                        </div>
+    
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input id="email" type="text" placeholder=" Masukan email anda " />
+                        </div>
+    
+                        <div class="input-group">
+                            <label for="zip-code">Zip-Code</label>
+                            <input id="zip-code" type="number" placeholder=" Masukan Zip-Code anda" />
+                        </div>
+                    </div>
+    
+                    <div class="checkbox">
+                        <label id="check">
+                            Dengan ini saya menyatakan data yang diisi pada form ini adalah benar
+                            dan telah sesuai
+                        </label><br /><br />
+                        <input id="status" type="checkbox"> Saya Setuju
+                    </div>
+    
+                    <button id="submit" type="submit">Submit</button>
+    
+                    <div id="warning"></div>
+                </form>
+            </div>
+        </section>
+    
+    
+        <footer id="footer">
+            <div>
+                <b>
+                    <h1>KuyLiner</h1>
+                </b>
+                <br>
+                <p>Membagikan pengalaman terbaik bagi para UMKM dan Konsumen.</p>
+                <br>
+                <h4>Kontak Kami</h4>
+                <h5>kuyliner123@gmail.com</h5>
+                <h6>+6282354879365</h6>
+            </div>
+        </footer>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
